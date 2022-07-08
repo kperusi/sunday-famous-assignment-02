@@ -19,8 +19,6 @@ function sumOfNumbers(arrayOfNumbers) {
     for(let i =0 ; i <arrayOfNumbers.length; i++){
 
         sum = sum + arrayOfNumbers[i]
-
-
     }
   
   return sum;
@@ -68,7 +66,7 @@ let fahrenheitArray =[];
             
         };
         
-        fahrenheitArray.push(`${F}deg F`);
+        fahrenheitArray.push(F);
     
     }
 
