@@ -61,7 +61,7 @@ let fahrenheitArray =[];
     for (let value of arrayOfNumbers){
         let F = (value *(9/5))+32
         F = Math.trunc(F);
-        if(F <1 && F>=0){
+        if(F==0){
             F = Math.abs(F);
             
         };
